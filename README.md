@@ -18,6 +18,12 @@ resulting in something like this
 	  "stat": "ok"
 	}
 	
+metrics
+---
+
+* [Levenshtein Distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
+* [Normalized Root Mean Square Deviation](http://en.wikipedia.org/wiki/Root-mean-square_deviation)
+* [Peak Signal to Noise Ratio](http://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)
 
 
 dependancies
