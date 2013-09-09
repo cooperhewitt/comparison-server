@@ -10,22 +10,23 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-	
-	image_a = request.files['image_a']
-	image_b = request.files['image_b']
+	metrics = {}
+	try:
+		image_a = request.files['image_a']
+		image_b = request.files['image_b']
 			
-	img_a = Image.open(image_a)
-	img_b = Image.open(image_b)
-	
-	metrics = compare(img_a, img_b)
-
+		img_a = Image.open(image_a)
+		img_b = Image.open(image_b)
+		
+		metrics = compare(img_a, img_b)
+	except:
+		print "You gotta let me know what images to process"
+		
 	return jsonify(stat="ok", metrics=metrics)
 	
 	
 def compare(image_a, image_b):
-	
-	# stubin out here
-		
+			
 	cmp = FuzzyImageCompare(image_a, image_b)
 	sim = cmp.similarity()
 	
