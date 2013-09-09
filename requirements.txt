@@ -1,0 +1,10 @@
+Flask==0.10.1
+Jinja2==2.7.1
+MarkupSafe==0.18
+PIL==1.1.7
+Werkzeug==0.9.4
+distribute==0.6.31
+gunicorn==18.0
+itsdangerous==0.23
+python-Levenshtein==0.10.2
+wsgiref==0.1.2
