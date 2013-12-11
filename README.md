@@ -33,6 +33,7 @@ Dependencies
 * [PIL](http://www.pythonware.com/products/pil/)
 * [gunicorn](http://gunicorn.org/)
 * [python-Levenshtein](https://pypi.python.org/pypi/python-Levenshtein/)
+* [libjpeg](http://libjpeg.sourceforge.net/) -- can be easily installed with [brew](http://brew.sh/)
 
 Use
 ---
