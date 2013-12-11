@@ -54,8 +54,13 @@ resulting in something like this
 	    "similarity": 61.60691240991981
 	  }, 
 	  "stat": "ok"
-	  }
+    }
 	
+You can also load images from the Internet like this:
+
+    $ curl "http://0.0.0.0:5000/web?image_a=http://images.collection.cooperhewitt.org/17085_59010b99dc98804b_b.jpg&image_b=ttp://images.collection.cooperhewitt.org/4833_3cad9310584c0adb_b.jpg" | python -mjson.tool
+    
+
 Metrics
 ---
 
