@@ -67,6 +67,8 @@ For your convenience, there is an [instance](http://comparison-server.herokuapp.
 
     $ curl "http://comparison-server.herokuapp.com/web?image_a=http://images.collection.cooperhewitt.org/17085_59010b99dc98804b_b.jpg&image_b=http://images.collection.cooperhewitt.org/4833_3cad9310584c0adb_b.jpg" | python -mjson.tool
 
+Or, just click [here](http://comparison-server.herokuapp.com/web?image_a=http://images.collection.cooperhewitt.org/17085_59010b99dc98804b_b.jpg&image_b=http://images.collection.cooperhewitt.org/4833_3cad9310584c0adb_b.jpg) to see the result in your web browser.
+
 Metrics
 ---
 
